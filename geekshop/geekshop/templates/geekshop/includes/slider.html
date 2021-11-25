@@ -3,7 +3,7 @@
 				<a href="/" class="logo"></a>
 				<ul class="menu">
 					<li><a href="/">домой</a></li>
-					<li><a href="/products/">продукты</a></li>
+					<li><a href="{% url 'products:main' %}">продукты</a></li>
 					<li><a href="/contacts/" class="active">контакты</a></li>
 					{% if user.is_authenticated %}
 						<li>
@@ -14,7 +14,8 @@
 						{% if basket %}
 							<li><a href="{% url 'basket:view' %}">Корзина</a>
 								<span>
-									({{ basket|length }} шт.)
+									{{ basket.0.total_cost|floatformat:0 }} руб.
+									({{ basket.0.total_quantity }} шт.)
 								</span>
 							</li>
 						{% endif %}

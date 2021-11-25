@@ -25,6 +25,7 @@
         <th scope="col">Товар</th>
         <th scope="col">Количество</th>
         <th scope="col">Стоимость</th>
+        <th scope="col">Удалить</th>
     </tr>
     </thead>
     <tbody>
@@ -34,6 +35,7 @@
         <td>{{ item.product.name }}</td>
         <td>{{ item.quantity }}</td>
         <td>{{ item.product.price }}</td>
+        <td><a href="{% url 'basket:remove' item.pk %}">x</a></td>
     </tr>
     {% endfor %}
     </tbody>
