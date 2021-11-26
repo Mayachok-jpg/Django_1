@@ -1,0 +1,6 @@
+venv/
+geekshop/geekshop/__pycache__/urls.cpython-39.pyc
+geekshop/geekshop/__pycache__/settings.cpython-39.pyc
+*.pyc
+.idea
+/venv/

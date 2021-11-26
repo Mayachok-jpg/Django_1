@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Все для котиков",
+    "name": "Детский кот",
+    "image": "product_images/product-51.jpg",
+    "short_desk": "",
+    "description": "",
+    "price": "200.00",
+    "quantity": 5
+  },
+  {
+    "category": "Стулья",
+    "name": "Стул",
+    "image": "product_images/product-2.jpg",
+    "short_desk": "",
+    "description": "",
+    "price": "500.00",
+    "quantity": 0
+  },
+  {
+    "category": "Офис",
+    "name": "Лампа",
+    "image": "product_images/product-1.jpg",
+    "short_desk": "нежный ламповый свет",
+    "description": "",
+    "price": "1500.00",
+    "quantity": 23
+  },
+  {
+    "category": "Офис",
+    "name": "Диван",
+    "image": "product_images/product-3-sm.jpg",
+    "short_desk": "Диван серый",
+    "description": "пятьдесят оттенков",
+    "price": "13500.00",
+    "quantity": 10
+  }
+]
